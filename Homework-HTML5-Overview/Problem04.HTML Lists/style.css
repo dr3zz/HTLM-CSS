@@ -1,0 +1,18 @@
+#nested-item-letter {
+	list-style-type: lower-latin;
+}
+#list-item{
+	list-style-type: upper-roman;
+}
+#nested-item-number {
+	list-style-type: 1;
+}
+#nested-list2-circle {
+	list-style-type: circle;
+}
+#nested-list2-square{
+	list-style-type: square;
+}
+#list-item3 {
+	list-style-type: disc;
+}

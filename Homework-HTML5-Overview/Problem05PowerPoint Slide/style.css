@@ -1,0 +1,55 @@
+h1 {
+	font-family: Calibri,arial;
+	font-size: 60px;
+		color: #E4B25A;
+}
+h2 {
+	font-family: Calibri,arial;
+	
+	font-size: 50px;
+}
+body {
+	background-image:url('images/background.jpg');
+	background-size: 100%;
+}
+.ribbon {
+  position:absolute;
+  top:30px;
+  right:0;
+}
+.header-position {
+	padding-left: 40px;
+ }
+.tags-square {
+	list-style-type: square;
+	color: #E4B25A;
+	font-size: 55px;
+}
+.tags-position {
+padding-left: 50px;
+}
+.color-class {
+	color: #E4B25A;
+}
+.color-heading-two {
+	font-family: Calibri, sans-serif;
+	color: #FFFFFF;
+}
+.field-note {
+	width: 1400px;
+	margin-left: 130px;
+	background-color: #20201E;
+	font-size: 30px;
+	color: white;
+	border-style: ridge;
+	border-color: #747065;
+}
+.paragraph-in-filed-note {
+	margin:0;
+	padding:0;
+	font-family: consolas;
+	color: #EDE0BE;
+}
+.paragraph-padding {
+	padding-left: 55px;
+}

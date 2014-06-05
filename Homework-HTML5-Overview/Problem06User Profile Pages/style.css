@@ -1,0 +1,13 @@
+body {
+	background-color: #ADD8E6;
+}
+.profile p{
+	padding: 2px;
+	margin: 0;
+}
+.dt-list dt {
+	font-style: italic;
+}
+.dt-list dd{
+ font-size: 20px;
+}

@@ -1,0 +1,19 @@
+p {
+	font-family: arial;
+	font-size: 16px;
+}
+h1 {
+	font-family: times, serif,arial;
+	font-size: 50px;
+}
+h2 {
+	font-family: times, serif,arial;
+	font-size: 30px;
+}
+pre{
+	
+	font-size: 20px;
+}
+#line hr {
+  margin-left: 0px;
+}
