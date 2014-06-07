@@ -13,9 +13,7 @@ color: #FFFFFF;
 }
 .outside-table td {
 	height: 120px;
-
 }
-
 .first-table {
 	width: 400px;
 }	
@@ -29,8 +27,6 @@ color: #FFFFFF;
 	font-family: 'PT Sans',Tahoma,sans-serif;
 	font-size:30px;
 	width: 100px;
-	
-
 }
 .beta {
 	font-family:  'PT Sans',Tahoma,sans-serif;
@@ -44,12 +40,10 @@ color: #FFFFFF;
 	font-family: 'PT Sans',Tahoma,sans-serif;
 	font-size:14px;
 	text-align: center;
-
 }
 #nav-reminder {
 	text-align: right;
 	vertical-align: left;
-
 }
 
 .dropdownmenu1 {
@@ -58,7 +52,6 @@ color: #FFFFFF;
 	margin: 0;
 	padding: 0;
 	overflow: auto;
-	
 }
 
 .dropdownmenu1 > li {
@@ -193,12 +186,11 @@ color: #FFFFFF;
 	text-align: left;
 	width: 300px;
 }
-.buttons a{
+.buttons  a{
 	color: white;
 	display: block;
 	float: right;
 	margin: 0;
-	width: 70px;
 	padding: 0 12px;
 	text-decoration: none;
 	line-height: 2em;
