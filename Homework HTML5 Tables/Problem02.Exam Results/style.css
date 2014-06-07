@@ -1,0 +1,24 @@
+.table-border table,th,td {
+	border:ridge;
+}
+tbody td:nth-chiled(1) {
+	width: 200px;
+}
+.student-number  {
+	width: 30px;
+}
+.student-first-name{
+	width: 100px;
+}
+.student-last-name {
+	width: 100px;
+}
+.student-exam-score {
+	width: 60px;
+}
+.table-border thead {
+	font-size: 20px;
+}
+.table-border tfoot {
+	text-align: right;
+}

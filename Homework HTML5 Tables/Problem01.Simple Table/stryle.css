@@ -1,0 +1,25 @@
+table {
+	border-color: blue;
+	border: ridge;
+
+}
+
+
+.row2-cell2 {
+	
+	width: 300px;
+}
+.row2-cell2  {
+	font-size: 30px;
+}
+.row2-cell2 p {
+	font-size: 27px;
+	padding: 0;
+	margin: 0;
+}
+.cell-height td {
+	text-align: top;
+	font-size: 50px;
+	padding-bottom: 50px;
+
+}

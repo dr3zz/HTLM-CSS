@@ -1,0 +1,20 @@
+.main-table table,td{
+	border:ridge;
+	
+}
+.nested-table td {
+	width: 500px;
+	border:ridge;
+	font-size: 110px;
+	height: 120px;
+}
+.pic  {
+	text-align: center;
+	vertical-align: middle;
+	width: 330px;
+	height: 330px;
+}
+.soft-uni {
+	width: 540px;
+	padding-left: 20px;
+}
