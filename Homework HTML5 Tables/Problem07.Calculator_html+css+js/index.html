@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="stylecal.css">
+	<meta charset='UTF-8'>
+	
+</head>
+<body>
+	<div class='table'>
+		<form name='calculator'>	
+			<table>
+				<tr>
+					<td colspan='4' id='screen'><input type="Text" name="ReadOut" value="0"></td>
+				</tr>
+				<tr>
+					<td><button type="button" value="1" onClick="Number(1)">1</button></td>
+					<td><button type='button' value="2" onClick="Number(2)">2</button></td>
+					<td><button type='button' value="3" onClick="Number(3)">3</button></td>
+					<td><button type='button' value="+" onClick="Operation('+')">+</button></td>
+				</tr>
+				<tr>
+					<td><button type='button' value="4" onClick="Number(4)">4</button></td>
+					<td><button type='button' value="5" onClick="Number(5)">5</button></td>
+					<td><button type='button' value="6" onClick="Number(6)">6</button></td>
+					<td><button type='button' value="-" onClick="Operation('-')">-</button></td>
+				</tr>
+				<tr>
+					<td><button type='button' value="7" onClick="Number(7)">7</button></td>
+					<td><button type='button' value="8" onClick="Number(8)">8</button></td>
+					<td><button type='button' value="9" onClick="Number(9)">9</button></td>
+					<td><button type='button' value="*" onClick="Operation('*')">*</button></td>
+				</tr>
+				<tr>
+					<td><button type='reset' value="C" onClick="Clear()">C</button></td>
+					<td><button type='button' value="0" onClick="Number(0)">0</button></td>
+					<td><button type='button' value="=" onClick="Operation('=')">=</button></td>
+					<td><button type='button' value="/" onClick="Operation('/')">/</button></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+<script type="text/javascript" src='calc.js'>
+
+</script>
+</html>
