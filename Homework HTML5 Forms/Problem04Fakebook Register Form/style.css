@@ -1,0 +1,152 @@
+
+body div {
+	font-family: arial;
+	background-color: #3B5997;
+	color: white;
+	width: 800px;
+	vertical-align: middle;
+}
+fieldset {
+	height: 185px;
+	border-radius:10px;
+}
+
+header h1 {
+	font-size: 120px;
+	text-align: center;
+	margin-bottom: 40px;
+	font-family: Lucida ;
+}
+input,select,textarea {
+	border-radius:5px;
+}
+header span {
+	font-size: 20px;
+}
+section h1 {
+
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 0;
+}
+section h3 {
+	text-align: center;
+	margin-top: 10px;
+	font-family: arial;
+}
+
+.container {
+    height:300px;
+  
+}
+.container legend {
+	text-align: center;
+}
+.left {
+    float:left;
+    width:300px;
+    margin-left:15px;
+    
+}
+.right {
+    float:right;
+    padding-right: 25px;
+    width:440px;
+  
+}
+#firstname {
+	float:left;
+	width: 120px;
+}
+#lastname {
+	float: right;
+	width: 120px;
+}
+#email {
+	float: left;
+	width: 120px;
+}
+#phone {
+	float: right;
+	width: 120px;
+}
+#pass {
+	float: left;
+	width: 120px;
+}
+#website {
+	float: right;
+	width: 120px;
+}
+#birthday  {
+	text-align: left;
+}
+#genderm {
+	margin-left: 25px;
+}
+#gendero {
+	margin-left: 25px;
+}
+#country {
+	width: 120px;
+	float: left;
+
+}
+#village {
+	width: 120px;
+	margin-left: 18px;
+}
+#district {
+	width: 120px;
+	margin-left: 10px;
+}
+#strname {
+	width: 120px;
+}
+#strnum {
+	width: 60px;
+	margin-left: 10px;
+}
+#floor {
+	width: 60px;
+	margin-left: 10px;
+}
+#apnum {
+	width: 60px;
+	margin-left: 10px;
+}
+#floorcolor {
+	width: 120px;
+	height: 20px;
+}
+#water-meter-num {
+	width: 120px;	
+	margin-left: 10px;
+}
+#moreinfo {
+	width: 420px;
+
+}
+input[type='reset']
+{
+	margin-top: 20px;
+	width:295px;
+	margin-left: 2px;
+	height: 40px;
+	border:none;
+	background-color: #DDDDDD;
+	color: #2B4D90;
+	border-radius:6px;
+}
+input[type='submit']
+{
+	margin-top: 20px;
+	margin-left: 2px;
+	width: 455px;
+	height: 40px;
+	background-color: #DDDDDD;
+	color: #2B4D90;
+	border:none;	
+	font-size: 30px;
+	border-radius:6px;
+}
