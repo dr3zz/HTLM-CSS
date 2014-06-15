@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flight Order</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form id='flight-order' method='post'>
+		<h1>FLIGHT ORDER</h1>
+		<div class='left-side'>
+			<label for='from-city'>From</label>
+			<br/>
+			<select id='from-city' name='from-city' autofocus='autofocus'>
+				<option value='sf'>Sofia</option>
+				<option value='vn'>Varna</option>
+				<option value='bs'>Burgas</option>
+				<option value='pl'>Plovdiv</option>
+				<option value='empty' selected='selected'>enter a city</option>
+				</select>
+			</div>
+			<div class='right-side'>
+				<label for='destination' >To</label>
+				<br/>
+				<select id='destination' name='destination' >
+					<option value='ln'>London</option>
+					<option value='ny'>New York</option>
+					<option value='la'>Los Angeles</option>
+					<option value='ms'>Moscow</option>
+					<option value='empty' selected='selected'>enter a city</option>
+					</select>
+				</div>
+				<input id='checkbox' type='checkbox' name='checkBox' value='checkbox' >
+				<label for='checkbox'>Prefer directs</label>
+				<br/>
+				<div class='left-side'>
+					<label for='departure-date'>Departure Date</label>
+					<br/>
+					<input id='departure-date' type='date'/>
+					<label for='return-date'>Return Date</label>
+					<br/>
+					<input id='return-date' type='date'/>
+				</div>
+				<div class='right-side'>
+					<label for='dep-date-fromtime'>Time Interval</label>
+					<br/>
+					<input id='dep-date-fromtime' type='time'/>
+					<input id='dep-date-totime' type='time'/>
+					<br/>
+					<label for='ret-date-fromtime'>Time Interval</label>
+					<br/>
+					<input id='ret-date-fromtime' type='time'/>
+					<input id='ret-date-totime' type='time'/>
+				</div>
+				<div  class='right-side'>
+					<label for='adult' style='margin-left:5px'>12+</label>
+					<label for='child' style='margin-left:50px'>2-12</label>
+					<label for='infant' style='margin-left:50px'>0-2</label>
+					<br/>
+					<select id='adult'>
+						<option value='0' selected='selected'>0</option>
+						<option value='2'>2</option>
+						<option value='3'>3</option>
+						<option value='4'>4</option>
+						<option value='5'>5</option>
+						<option value='6'>6</option>
+						<option value='7'>7</option>
+						<option value='8'>8</option>
+						<option value='9'>9</option>
+					</select>
+					<select id='child'>
+						<option value='0' selected='selected'>0</option>
+						<option value='1'>1</option>
+						<option value='2'>2</option>
+						<option value='3'>3</option>
+						<option value='4'>4</option>
+						<option value='5'>5</option>
+						<option value='6'>6</option>
+					</select>
+					<select id='infant'>
+						<option value='0' selected='selected'>0</option>
+						<option value='1'>1</option>
+						<option value='2'>2</option>
+						<option value='3'>3</option>
+						<option value='4'>4</option>
+					</select>
+				</div>
+				<div class='left-side'>
+					<label for='flight-class' >Choose class</label>
+					<br/>
+					<select id="flight-class">
+						<option value='1'>Economy</option>
+						<option value='2'>Premium Economy</option>
+						<option value='3'>Business class</option>
+						<option value='4'>First class</option>
+					</select>
+					<input type='submit' value='Search'>
+				</div>
+
+				
+			</form>
+		</body>
+		</html>

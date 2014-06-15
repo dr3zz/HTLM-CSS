@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fakebook Register Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+	<div>
+		<header>
+			<h1>fakebook<span> &reg;</span></h1>
+		</header>
+		<section>
+			<h1>Registration</h1>
+			<h3>It is safe and it will always be!</h3>
+			<form >
+				<div class="container">
+					<div class="left">
+						<fieldset>
+							<legend>None-Important Information</legend>
+							<input type='text' id='firstname' name='fname' placeholder='First Name'>
+							<input type='text' id='lastname' name='lname' placeholder='Last Name'>
+							<br/>
+							<input type='email' id='email' name='email' placeholder='Your Email'>
+							<input type='tel' id='phone' name='pnumber' placeholder='Phone Number'>
+							<br/>
+							<input type='password' id='pass' name='pw-user' placeholder="Your Password">
+							<input type='url' id='website' name='website' placeholder="Website">
+							<br/>
+							<label id='birthday' style='text-align: left'>Birthday</label>
+							<br/>
+							<input id='datetime' name='datetime' type='datetime-local'>
+							<br/>
+							<input type='radio' name='gender' id='genderf' value='female'/>
+							<label for='genderf'>Female</label>
+							<input type='radio' name='gender' id='genderm' value='male'/>
+							<label for='genderm'>Male</label>
+							<input type='radio' name='gender' id='gendero' value='other'>
+							<label for='gendero'>Other</label>
+							<br/>  
+							
+						</fieldset>
+						<input type='reset' value='Clear Form'>
+					</div>
+					<div class="right"><fieldset>
+						<legend>Important Information *required</legend>
+						<select id='country' name='country' placeholder='country' required='required'>
+							<option value='bg'>Bulgaria</option>
+							<option value='us'>Unated State</option>
+							<option value='en'>England</option>
+							<option value='ger'>Germany</option>
+							<option value="" disabled selected>country</option>
+						</select>
+						<input type='text' id='village' name='village' required='required' placeholder='Village' >
+						<input type='text' id='district' name='district' required='required' placeholder='District'>
+						<br/>
+						<input type='text' id='strname' name='strname' required='required' placeholder='Street'>
+						<input type='text' id='strnum'  name='strnum' required='required' placeholder='Nr' pattern="[0-9]+">
+						<input type='text' id='floor' name='floor' required='required' placeholder='Floor' pattern="[0-9]+">
+						<input type='text' id='apnum' name='apnum';required='required' placeholder='Ap Nr' pattern="[0-9]+">
+						<br/>
+						<input type='color' id='floorcolor' name='fcolor' required='required' value='#FF80C0'>
+						<input type='text' id='water-meter-num' name='wm-num' required='required' placeholder='Water Meter Nr' pattern="[0-9]+">
+						<select id='panties' name='apsize' >
+						<option value='34'>34</option>
+						<option valie='36'>36</option>
+						<option value='38'>38</option>
+						<option value='' disabled selected>Aunt panties size</option>
+						<br/>
+						</select> 
+						<label for='moreinfo'>More Personal Information</label>		
+						<br/>	
+						<textarea id='moreinfo' placeholder='Give Us More Information!!!' rows='4'></textarea>
+					</fieldset>
+					<input type='submit' value='Register'>
+				</div>
+			</div>
+
+		</form>
+
+
+
+
+
+
+
+
+	</section>
+
+</div>
+
+
+
+</body>
+</html>

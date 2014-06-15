@@ -1,0 +1,74 @@
+
+body {
+	font-style: italic;
+}
+h1{
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+form {
+	width: 510px;
+	background-color: #FFC0CB;
+	height: 300px;
+	padding-left: 5px;
+}
+
+#from-city {
+	width: 240px;
+	
+}
+#destination {
+	width: 240px;
+
+}
+.left-side  {
+	float: left;
+	padding-left: 5px;
+	width: 240px;
+}
+.right-side  {
+	float: left;
+
+}
+.right-side  {
+	width: 240px;
+	padding-left: 5px;
+}
+#checkbox {
+	margin-left: 250px;
+}
+#departure-date {
+	width: 240px;
+}
+#return-date {
+	width: 240px;
+}
+
+input[type='time']
+{
+		width: 105px;
+	margin-left:5px; 
+}
+#adult {
+	width: 75px;
+	margin-left: 2px;
+
+}
+#child {
+	width: 75px;
+	margin-left: 2px;
+}
+
+#infant {
+	width: 75px;
+	margin-left: 2px;
+}
+#flight-class {
+	width: 240px;
+}
+.left-side input[type='submit'] {
+	width: 240px;
+	height: 30px;
+	margin-top: 5px;
+}
