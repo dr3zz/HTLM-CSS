@@ -1,0 +1,98 @@
+#clown {
+    /*margin-left: 300px;*/
+}
+
+#body {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    border: 3px solid #000000;
+    background-color: yellow;
+    position: absolute;
+
+
+}
+#nose {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 3px solid #000000;
+    background-color: red;
+    margin-top: 200px;
+    margin-left: 200px;
+
+}
+
+#left-eye {
+    position: absolute;
+    margin-top: 90px;
+    margin-left:100px ;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #000000;
+    border-radius: 100%;
+    background-color: white;
+}
+#right-eye {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #000000;
+    border-radius: 100%;
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 90px;
+}
+.pupil {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #000000;
+    border: 3px solid #000000;
+}
+#left-eye > .pupil {
+
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#mouth {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    border: 3px solid  #000000;
+    margin-top: 300px;
+    margin-left: 115px;
+    border-radius: 50px;
+}
+
+#left-tooth {
+    float: left;
+    margin-left: 75px;
+
+    width: 50px;
+    height: 50px;
+    border-left:  3px solid  #000000;
+    border-right:  3px solid  #000000;
+    border-bottom:  3px solid  #000000;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    border-color: #000000;
+    background-color: white;
+
+}
+#right-tooth {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-left:  3px solid  #000000;
+    border-right:  3px solid  #000000;
+    border-bottom:  3px solid  #000000;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    border-color: #000000;
+    background-color: white;
+}

@@ -1,0 +1,43 @@
+body {
+	
+	font-size: 20px;
+}
+
+header h1 {
+	text-align: center;
+}
+#profile {
+	float: left;
+	margin-left: 10px;
+
+}
+
+#profile-div figure {
+	margin: 0;
+}
+#profile-div meter {
+	width: 180px;
+}
+#audio {
+	margin-left: 5px;
+	float: left;
+}
+#main-audio {
+
+	height: 140px;
+	margin-bottom: 5px;
+	background-color: black;
+}
+#main-audio audio {
+	margin-top: 40px;
+}
+
+#video {
+	float: left;
+	margin-left: 5px;
+}
+.contain {
+height: 400px;
+background-color: pink;
+border-radius: 10px;
+}

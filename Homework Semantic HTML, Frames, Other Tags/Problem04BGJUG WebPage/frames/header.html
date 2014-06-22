@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+        "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+    <title>header</title>
+    <meta charset='UTF-8'>
+    <link rel="stylesheet" type="text/css" href="">
+    <style type="text/css">
+        header {
+            margin-left: 30px;
+        }
+
+        div.nav a {
+            text-decoration: none;
+            color: gray;
+            font-size: 16px;
+
+        }
+        #search button {
+            width: 42px;
+            height: 40px;
+            background: none;
+            border: none;
+            background-image: url("header/img/s1.png");
+            background-position: 7px;
+            background-repeat: no-repeat;
+
+        }
+        #search input[type='text'] {
+            float: left;
+                border: none;
+                width: 265px;
+            color: #367cae;
+            background: transparent;
+            font-size: 20px;
+            height: 99%;
+        }
+        .nav {
+            position: relative;
+
+            height: 60px;
+
+        }
+
+        .nav nav {
+            bottom: 0;
+            position: absolute;
+        }
+
+        .nav div {
+            bottom: 0;
+            position: absolute;
+            right: 0;
+
+        }
+
+        hr {
+            background-color: rgba(0, 0, 255, 0.1);
+            height: 1px;
+            border: none;
+
+        }
+
+        #search {
+            height: 40px;
+            border: ridge;
+            border-color: rgba(0, 0, 255, 0.1);
+
+        }
+
+
+    </style>
+</head>
+
+<header><h1>BGJUG - Bulgaria Java User Group</h1>
+
+    <div class='nav'>
+        <nav>
+            <a href="#" value='ABOUT'>ABOUT</a>
+            <a href="#" value='EVENTS' style='margin-left:60px'>EVENTS</a>
+            <a href="#" value='CONTACTS' style='margin-left:60px'>CONTACTS</a>
+
+        </nav>
+
+        <div id='search'>
+            <input type="text" placeholder="Search" name="query"/>
+            <button type="submit"></button>
+        </div>
+    </div>
+    <hr>
+</header>
+</body>
+</html>

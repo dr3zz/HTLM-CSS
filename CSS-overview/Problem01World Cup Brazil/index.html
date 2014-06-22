@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>World Cup Brazil</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        function onClick() {
+            alert("This match is over u can't bet");
+        }
+        function onClickBet() {
+            confirm("accepted")
+        }
+    </script>
+</head>
+<body>
+<div id="content">
+
+<table id="result-table">
+<tr>
+    <th class="country_home">
+        Country
+    </th>
+    <th id="result">Result</th>
+    <th class="country_guest"> Country</th>
+    <th id="group">Group</th>
+    <th colspan="4">Place A Bet</th>
+</tr>
+<tr>
+    <td>
+        Brazil
+    </td>
+    <td> 1 - 3</td>
+    <td> Mexico</td>
+    <td> A</td>
+    <td class="country_home">Brazil</td>
+    <form method="post" name="red-form">
+        <td class="red-submit" >
+            <select disabled="disabled">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option selected="selected">0</option>
+            </select>
+            -
+            <select disabled="disabled">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option selected="selected">0</option>
+            </select>
+        </td>
+        <td class="country_guest"> Mexico</td>
+        <td class="bet-bnred"><input type="submit" value="bet" onclick="onClick()" ></td>
+    </form>
+</tr>
+<tr>
+    <td>
+        Spain
+    </td>
+    <td> 1 - 5</td>
+    <td> Netherlands</td>
+    <td>B</td>
+    <td class="country_home">Spain</td>
+    <form method="post" name="red-form">
+        <td class="red-submit" >
+            <select disabled="disabled">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option selected="selected">0</option>
+            </select>
+            -
+            <select disabled="disabled">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option selected="selected">0</option>
+            </select>
+        </td>
+        <td class="country_guest"> Netherlands</td>
+        <td class="bet-bnred"><input type="submit" value="bet" onclick="onClick()"></td>
+    </form>
+</tr>
+<tr>
+    <td>
+        Italy
+    </td>
+    <td> 2 - 1</td>
+    <td> England</td>
+    <td>C</td>
+    <td class="country_home">Italy</td>
+    <form method="post" name="red-form">
+        <td class="red-submit">
+            <select disabled="disabled">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option selected="selected">0</option>
+            </select>
+            -
+            <select disabled="disabled">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option selected="selected">0</option>
+            </select>
+        </td>
+        <td class="country_guest"> England</td>
+        <td class="bet-bnred"><input type="submit" value="bet" onclick="onClick()"></td>
+    </form>
+</tr>
+<tr>
+    <td>
+        Argentina
+    </td>
+    <td> -</td>
+    <td> Bosnia and Herz</td>
+    <td>F</td>
+    <td class="country_home">Argentina</td>
+    <form method="post" name="green-form">
+        <td class="green-submit">
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option selected="selected">0</option>
+            </select>
+            -
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option selected="selected">0</option>
+            </select>
+        </td>
+        <td class="country_guest"> Bosnia and Herz</td>
+        <td class="bet-bngreen"><input type="submit" value="bet" onclick="onClickBet()"></td>
+    </form>
+
+</tr>
+<tr id="lastLine">
+    <td>
+        Germany
+    </td>
+    <td> -</td>
+    <td>Portugal</td>
+    <td>E</td>
+    <td class="country_home">Germany</td>
+    <form method="post" name="green-form">
+        <td class="green-submit">
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option selected="selected">0</option>
+            </select>
+            -
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option selected="selected">0</option>
+            </select>
+        </td>
+        <td class="country_guest">Portugal</td>
+        <td class="bet-bngreen"><input type="submit" value="bet" onclick="onClickBet()"></td>
+    </form>
+
+</tr>
+
+</table>
+
+
+</div>
+</body>
+</html>

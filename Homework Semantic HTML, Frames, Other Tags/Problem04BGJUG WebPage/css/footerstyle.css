@@ -1,0 +1,80 @@
+#footer-heading {
+   margin-left: 30px;
+    width: 180px;
+    float: left;
+}
+#pages {
+    width: 180px;
+    float: left;
+    padding-left: 20px;
+}
+#pages ul li a {
+    text-decoration: none;
+    color: white;
+}
+#pages ul li a:hover {
+    text-decoration: underline;
+}
+
+#pages ul li {
+    display: block;
+    margin: 0;
+}
+
+#pages ul {
+
+    padding-left: 4px;
+}
+
+#last_posts {
+    width: 230px;
+    float: left;
+    padding-right: 20px;
+}
+#last_posts h2 {
+    margin-left: 50px;
+
+}
+
+#last_posts p {
+    /*text-align: right;*/
+    font-size: 14px;
+    margin-left: 50px;
+    color: #999999;
+}
+
+#last_posts a {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    float: right;
+    padding-top: 10px;;
+}
+
+#last_posts a:hover {
+    text-decoration: underline;
+}
+#more {
+    width: 160px;
+    float: left;
+    padding-left: 20px;
+}
+#more a {
+    color: white;
+    text-decoration: none;
+}
+
+#more p {
+    color: #999999;
+    font-size: 14px;
+
+}
+#copyright {
+    width: 180px;
+    float: left;
+}
+#copyright p {
+    color: #999999;
+    font-size: 14px;
+
+}

@@ -1,0 +1,240 @@
+
+@import url(footerstyle.css);
+header h1 {
+
+    margin-top: 0;
+}
+header {
+    margin-left: 30px;
+    width: 90%;
+}
+
+body {
+    font-family: "Droid Sans", "Lucida Grande", Tahoma, sans-serif;
+}
+
+div.nav a {
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+
+}
+
+#search button {
+    width: 42px;
+    height: 40px;
+    background: none;
+    border: none;
+    background-image: url("img/s1.png");
+    background-position: 7px;
+    background-repeat: no-repeat;
+
+}
+
+#search input[type='text'] {
+    float: left;
+    border: none;
+    width: 265px;
+    color: #367cae;
+    background: transparent;
+    font-size: 20px;
+    height: 99%;
+}
+
+.nav {
+    position: relative;
+    /*border: ridge;*/
+    height: 50px;
+
+}
+
+div.nav nav {
+    bottom: 0;
+    position: absolute;
+
+}
+
+#search {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    border: ridge;
+
+}
+
+hr {
+    background-color: rgba(0, 0, 255, 0.1);
+    height: 1px;
+    border: none;
+
+}
+
+#search {
+    height: 40px;
+    /*border: ridge;*/
+    border-color: rgba(0, 0, 255, 0.1);
+
+}
+
+#left {
+    float: left;
+    width: 230px;
+    margin-left: 30px;
+    /*border: ridge;*/
+    padding-top: 50px;
+
+}
+
+#right {
+    float: left;
+    /*border: ridge;*/
+    padding-left: 50px;
+    width: 288px;
+
+}
+
+.content {
+    float: left;
+    width: 570px;
+    /*border: ridge;*/
+
+}
+
+.content h1 {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+.content p {
+    font-size: 17px;
+}
+
+.fn a {
+    text-decoration: none;
+    color: #777777;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.fn a:hover {
+    color: black;
+}
+
+.fn {
+    color: #AFAFAF;
+}
+
+.date_time time {
+    color: #777777;
+    letter-spacing: 0.15em;
+}
+
+.leave-comment {
+    margin-left: 3px;
+    letter-spacing: 0.15em;
+}
+
+.leave-comment sup {
+    color: #777777;
+    letter-spacing: 3px;
+}
+
+.heading {
+    text-decoration: none;
+    color: black;
+}
+
+.heading:hover {
+    text-decoration: underline;
+}
+
+.continue_reading_link {
+    text-decoration: none;
+    color: #225E9B;
+}
+
+.continue_reading_link:hover {
+    text-decoration: underline;
+}
+
+.leave-comment a {
+    text-decoration: none;
+    color: #777777;
+    text-transform: uppercase;
+}
+
+.leave-comment a:hover {
+    color: #225E9B;
+}
+
+.content section h1:nth-child(1) {
+    /*padding-top: 10px;*/
+    margin-top: 10px;
+}
+
+#bottom_link {
+    padding-top: 60px;
+}
+
+#bottom_link a {
+    text-decoration: none;
+    color: #225E9B;
+}
+
+#bottom_link a:hover {
+    text-decoration: underline;
+}
+
+#left a {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    padding-right: 60px;
+    color: #4B7BBF;
+
+}
+
+#left a:hover {
+    /*color: ;*/
+}
+
+#right hr {
+    background-color: rgba(0, 0, 255, 0.1);
+    height: 1px;
+    border: none;
+}
+
+#right label {
+    color: #AFAFAF;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+}
+
+.twitter {
+    font-style: italic;
+    color: #777777;
+    padding-left: 40px;
+    float: left;
+    margin-bottom:10px;
+}
+
+.twitter:before {
+    content: url(img/twitter-balloon.png);
+}
+
+footer {
+    float: left;
+    width: 90%;
+    border: ridge;
+    background: black;
+    color: white;
+}
+footer h2 {
+    font-size: 16px;
+    font-weight: normal;
+}
+footer h1 {
+    font-size: 20px;
+    font-weight: normal;
+}
