@@ -1,0 +1,127 @@
+#text-field h1 {
+    text-transform: uppercase;
+    text-shadow:10px 10px 10px  silver;
+    font-size: 50px;
+
+}
+#text-field {
+    text-align: center;
+    width: 750px;
+    height: 290px;
+    border-top:7px dotted yellow;
+    border-bottom:7px double blue;
+    border-left:7px dashed red;
+    border-right: 7px solid green;
+    box-shadow: 20px 20px 5px #3F3F3F;
+}
+#text-field > div {
+    border:3px solid blue;
+    margin: 30px;
+    border-radius:70px;
+
+}
+#text-field > div > div {
+    border:3px solid green;
+    border-radius: 60px;
+
+}
+#text-field > div > div > div {
+    border:3px solid yellow;
+    border-radius: 66px;
+    margin:0;
+    padding: 0;
+}
+#text-field > div > div > div > div{
+    border:3px solid red;
+    border-radius: 60px;
+    margin:0;
+    padding: 0;
+}
+.orange-rectangle {
+    display: inline-block;
+    border-bottom: 4px solid #AB6E00;
+    border-right: 4px solid #AB6E00;
+    border-top:4px solid #FFA500;
+    border-left:4px solid #FFA500;
+    margin-bottom: 10px;
+    width: 230px;
+    height: 20px;
+    background: #D8921A;
+
+}
+#text-field p {
+    font-size: 26px;
+    margin: 15px;
+    text-shadow: 10px 10px 10px #3F3F3F;
+}
+#circle1 {
+    position: absolute;
+    top:188px;
+    left: 600px;
+    height: 30px;
+    width: 30px;
+    background: #A9AAAA;
+    text-align: center;
+    border-radius: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    opacity: 0.9;
+}
+#circle1 > div {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    margin: 5px;
+    border:2px  dashed  white;.
+
+}
+#circle2 {
+    position: absolute;
+    top:135px;
+    left: 660px;
+    height: 45px;
+    width: 45px;
+    background: #A9AAAA;
+    text-align: center;
+    border-radius: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    opacity: 0.9;
+}
+#circle2 > div {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    margin: 5px;
+    border:3px  dashed  white;.
+
+}
+#ellipse {
+    position: absolute;
+    top:50px;
+    left: 710px;
+    height: 90px;
+    width: 160px;
+    background: #A9AAAA;
+    text-align: center;
+    border-radius: 60px;
+    vertical-align: middle;
+    display: table-cell;
+    opacity: 0.9;
+
+}
+#ellipse > div {
+    height: 75px;
+    width: 145px;
+    border-radius: 60px;
+    margin: 5px;
+    border:3px  dashed  white;.
+
+}
+#ellipse span {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Playfair Display SC', serif;
+    line-height: 30px;
+}

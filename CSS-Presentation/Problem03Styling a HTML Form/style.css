@@ -1,0 +1,106 @@
+p{
+    padding: 0;
+    margin: 0;
+}
+#form {
+
+    width: 400px;
+    background-image: url(img/formBackground.jpg);
+
+  }
+#form > span > p {
+    margin: 5px;
+}
+#form > span:nth-of-type(1) {
+    margin-left: 15px;
+    padding-top: 20px;
+    display: block;
+}
+#form > span {
+    display: block;
+    margin-left: 15px;
+}
+#form p {
+    color: white;
+    padding: 0;
+}
+.form-field {
+    width: 360px;
+    height: 40px;
+    background: rgba(110,136,173,0.5);
+    margin: 3px auto;
+    border: 1px solid #D1DFEE;
+    border-radius: 3px;
+
+
+}
+.form-field > label {
+    display: inline-block;
+    width: 110px;
+    margin: 10px ;
+}
+.form-field > input[type='text'],input[type='email'],input[type='tel'],input[type='number'] {
+    display: inline-block;
+    width: 185px;
+    height: 25px;
+    padding-left: 5px;
+
+ }
+.from-cc-field {
+    background: rgba(110,136,173,0.5);
+    border: 1px solid #D1DFEE;
+    border-radius: 3px;
+    width: 360px;
+    margin: 3px auto;
+    height: 65px;
+}
+.from-cc-field > label:nth-of-type(1) {
+    display: block;
+    margin: 10px;
+    /*float: left;*/
+}
+.from-cc-field > input[type='radio'] {
+    margin-left: 20px;
+}
+.form-textarea {
+    background: rgba(110,136,173,0.5);
+    border: 1px solid #D1DFEE;
+    border-radius: 3px;
+    width: 360px;
+    margin: 3px auto;
+
+}
+.form-textarea textarea {
+    height: 85px;
+    resize: none;
+    display: inline-block;
+    width: 190px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.form-textarea label {
+    display: inline-block;
+    width: 110px;
+    float: left;
+    margin: 13px ;
+
+}
+#form > div > input[type='submit']{
+    margin: 5px auto;
+    background: #04152F;
+    color: white;
+    width: 95px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+#submit {
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 20px;
+  }
+.from-cc-field {
+   padding-bottom: 10px;
+}
+
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Styling a HTML Form</title>
+    <link rel='stylesheet' type="text/css" href="style.css">
+</head>
+<body>
+<form id="form" method="post">
+
+    <span><p>Step 1: Your details</p></span>
+
+    <div class="form-field">
+        <label for="form-name">Name</label>
+        <input type="text" id="form-name" name="name" placeholder="First and last name">
+    </div>
+    <div class="form-field">
+        <label for="form-email">Email</label>
+        <input type="email" id="form-email" name="email" placeholder="example@domain.com"
+               pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}" title="Please enter a valid email address">
+    </div>
+    <div class="form-field">
+        <label for="form-phone">Phone</label>
+        <input type="tel" id="form-phone" name="phoneNumber" placeholder="eg +4475000000000"
+               pattern="\+[0-9]{4}[0-9]{9}"
+               title="Please use the format: +4475000000000">
+    </div>
+    <span> <p>Step 2: Delivery address</p></span>
+
+    <div class="form-textarea">
+        <label for="form-address">Address</label>
+        <textarea id="form-address" name="Address"></textarea>
+    </div>
+    <div class="form-field">
+        <label for="form-pcode">Post code</label>
+        <input type="text" id="form-pcode" name="post-code" pattern="[0-9]{4,}">
+    </div>
+    <div class="form-field">
+        <label for="form-country">Country</label>
+        <input type="text" id="form-country" name="country">
+    </div>
+    <span><p>Step 3: Card details</p></span>
+
+    <div class="from-cc-field">
+        <label>Card Type</label>
+        <input type="radio" value="visa" id='visa' name="cc">
+        <label for="visa"><img src="img/visa.png" alt="visa">Visa</label>
+        <input type="radio" value="amex" id="amex" name="cc">
+        <label for="amex"><img src="img/amex.png" alt="amex">AmEx</label>
+        <input type="radio" value="mastercard" id="mcard" name="cc">
+        <label for="mcard"><img src="img/mastercard.png" alt="mastercard">Mastercard</label>
+
+    </div>
+    <div class="form-field">
+        <label for="form-cardnumber">Card number</label>
+        <input type="text" id="form-cardnumber" name="cc-number" pattern="[0-9]{16}">
+
+    </div>
+    <div class="form-field">
+        <label for="form-securecode">Security code</label>
+        <input type="text" id="form-securecode" name="sec-code" pattern="[0-9]{6,}">
+    </div>
+    <div class="form-field">
+        <label for="form-ccname">Name on card</label>
+        <input type="text" id="form-ccname" name="cc-name" placeholder="exact name as on the card">
+    </div>
+    <div id="submit">
+        <input type="submit" value="BUY IT!">
+    </div>
+</form>
+</body>
+</html>

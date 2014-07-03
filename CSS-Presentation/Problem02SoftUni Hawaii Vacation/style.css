@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Animated";
+    src: url(font/Animated.ttf) format("truetype");
+}
+
+.contain > div > h1 {
+    font-family: "Animated","Droid Sans", "Lucida Grande", Tahoma, sans-serif;
+    color: #FDBC21;
+    float: right;
+    font-size: 45px;
+    margin: 20px;
+}
+.contain {
+    width: 900px;
+    height: 600px;
+    background: -webkit-radial-gradient(  200px 120px,#FEFEF2, #F9F7B8 100px  , #FEFEF2 170px   , #007EDB 400px));
+    background: radial-gradient(at 200px 120px,#FEFEF2, #F9F7B8 100px  , #FEFEF2 170px   ,#377edb 400px);
+    background: radial-gradient(rgba(55,126,219,2));
+
+}
+.contain > div {
+    width: 900px;
+    height: 600px;
+    background-image: url(img/HawaiiBackground.png);
+
+}
+
+#Vlado-GHula {
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 40px;
+}
+
+#Petia-Hula {
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 185px;
+}
+
+#Tedi-Hula {
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 265px;
+}
+
+#Nakov-Hula {
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 415px;
+
+}
+#Alex-Hula {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 490px;
+
+}
+#Vlado-KHula {
+    position: absolute;
+    margin-top: 230px;
+    margin-left:670px;
+}
