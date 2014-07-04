@@ -1,0 +1,113 @@
+footer {
+    font-family: "Droid Sans", "Lucida Grande", Tahoma, sans-serif;
+    width: 1205px;
+    float: left;
+    background-color: #234465;
+    color: white;
+}
+
+footer div {
+    height: 285px;
+    float: left;
+}
+
+footer div p {
+    margin: 10px;
+    padding: 0;
+}
+
+footer div h2 {
+    margin-left: 10px;
+    margin-top: 40px;
+    color: #FF9C00;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+footer div ul {
+    margin-left: 10px;
+    padding: 0;
+}
+
+footer div ul li {
+    list-style-type: none;
+}
+
+footer div ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 6px;
+}
+
+footer #buttons {
+    width: 241px;
+    text-align: right;
+}
+
+footer #buttons ul li a {
+    border: 2px solid #FF9C00;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 20px;
+    width: 160px;
+    height: 45px;
+}
+
+footer #buttons ul li a:hover {
+    background-color: #FF9C00;
+    transition: all 0.4s ease;
+}
+
+footer #buttons ul li:nth-of-type(1) {
+    margin-top: 40px;
+}
+
+#about-uni {
+    width: 168.7px;
+}
+
+#friends {
+    width: 168.7px;
+}
+
+#softuni-learning {
+    width: 253.05px;
+}
+
+#softuni-learning div {
+    width: 100%;
+}
+
+#softuni-learning div ul li {
+    display: inline-block;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+#softuni-learning div ul li a img {
+    border: 2px solid white;
+}
+
+#softuni-learning div ul li a:hover {
+    opacity: 0.5;
+    transition: all 0.4s ease;
+}
+
+#softuni-fb {
+    width: 361.5px;
+}
+
+#softuni-fb img {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+footer > div > div {
+    display: block;
+    float: right;
+    clear: both;
+}

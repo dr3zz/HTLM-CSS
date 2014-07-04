@@ -1,0 +1,129 @@
+$footer-width: 1205px;
+$footer-height: 285px;
+$font-size: 10px;
+$font-family: "Droid Sans", "Lucida Grande", Tahoma, sans-serif;
+$footer-background: #234465;
+$footer-paragraph-color: white;
+@mixin footer-heading-two {
+  color: #FF9C00;
+  text-transform: uppercase;
+  font-size: $font-size + 3;
+}
+
+@mixin border-color-bn {
+  border: 2px solid #FF9C00;
+}
+
+footer {
+  font-family: $font-family;
+  width: $footer-width;
+  float: left;
+  background-color: $footer-background;
+  color: $footer-paragraph-color;
+  div {
+
+    height: $footer-height;
+    float: left;
+    p {
+      margin: 10px;
+      padding: 0;
+    }
+    h2 {
+
+      margin-left: 10px;
+      margin-top: 40px;
+      @include footer-heading-two;
+    }
+    ul {
+      margin-left: 10px;
+      padding: 0;
+      li {
+        list-style-type: none;
+        //
+        a {
+          text-decoration: none;
+          color: $footer-paragraph-color;
+          display: block;
+          margin-bottom: 6px;
+        }
+      }
+    }
+  }
+  #buttons {
+    width: $footer-width * 0.20;
+    text-align: right;
+    ul {
+      li {
+        a {
+          @include border-color-bn;
+          display: inline-block;
+          vertical-align: middle;
+          line-height: 40px;
+          text-align: center;
+          margin-right: 20px;
+          width: 160px;
+          height: 45px;
+          &:hover {
+            background-color: #FF9C00;
+            transition: all 0.4s ease;
+          }
+        }
+      }
+      li:nth-of-type(1) {
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+#about-uni {
+  width: $footer-width *0.14;
+}
+
+#friends {
+  width: $footer-width *0.14;
+
+}
+
+#softuni-learning {
+  width: $footer-width * 0.21;
+  div {
+    width: 100%;
+    ul {
+      li {
+        display: inline-block;
+        height: 90%;
+        margin: 0;
+        padding: 0;
+        a {
+          img {
+            border: 2px solid white;
+          }
+          &:hover {
+            opacity: 0.5;
+            transition: all 0.4s ease;
+          }
+        }
+      }
+    }
+  }
+}
+
+#softuni-fb {
+  width: $footer-width * 0.30;
+   img {
+     margin-top:30px;
+     margin-left: 30px;
+   }
+
+}
+
+footer > {
+  div > {
+    div {
+      display: block;
+      float: right;
+      clear: both;
+    }
+  }
+}

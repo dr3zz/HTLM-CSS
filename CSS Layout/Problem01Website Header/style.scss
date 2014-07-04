@@ -1,0 +1,108 @@
+$header-width: 1212px;
+
+$inline-block: inline-block;
+$header-background-color: #234465;
+$search-background-color: white;
+$white-font-color: white;
+$background-link-hover: #4ca0db;
+$background-link-active: #FF9C00;
+#header {
+  padding: 10px;
+  padding-bottom: 0;
+  width: $header-width;
+  background-color: $header-background-color;
+  #header-logo {
+    width: $header-width*0.27;
+    display: $inline-block;
+    img {
+      vertical-align: middle;
+    }
+  }
+  #header-nav {
+    width: $header-width - $header-width*0.30;
+    display: $inline-block;
+    vertical-align: middle;
+    nav {
+      ul {
+        text-align: right;
+        margin: 5px;
+        padding: 0;
+        li {
+          display: inline-block;
+          text-align: left;
+          a {
+            color: $white-font-color;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            border-radius: 10px;
+            .caret img {
+              vertical-align: middle;
+              width: 8px;
+
+            }
+
+            &:hover {
+              background-color: $background-link-hover;
+            }
+            &:active {
+              background-color: $background-link-active;
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+  div {
+    text-align: right;
+    div {
+      display: inline-block;
+      color: $white-font-color;
+      a {
+        text-decoration: none;
+        color: $white-font-color;
+        border-radius: 10px;
+        padding: 10px;
+        display: block;
+        &:hover {
+          text-decoration: underline;
+        }
+        &:active {
+          background-color: $background-link-active;
+        }
+      }
+      div {
+        &:hover {
+          text-decoration: underline;
+        }
+        &:active {
+
+        }
+      }
+    }
+    #search {
+      border-radius: 10px;
+      background-color: $search-background-color;
+      input[type='search'] {
+        width: 200px;
+        height: 30px;
+        border: none;
+        padding-left: 5px;
+        border-radius: 10px;
+        &:focus {
+          outline: none;
+        }
+      }
+      button {
+        width: 30px;
+        height: 30px;
+        background: none;
+        border: none;
+        border-left: 1px solid black;
+      }
+    }
+  }
+}
+

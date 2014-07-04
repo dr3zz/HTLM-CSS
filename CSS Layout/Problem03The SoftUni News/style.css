@@ -1,0 +1,77 @@
+body {
+  background: #eeeeee; }
+  body #wrapper {
+    font-family: arial, helvetica, freesans, sans-serif;
+    font-size: 14px;
+    color: #5a5a5a;
+    float: left; }
+    body #wrapper section {
+      margin: 0 auto;
+      width: 90%; }
+      body #wrapper section h3 {
+        margin-left: 20px; }
+      body #wrapper section article {
+        float: left;
+        margin-left: 20px;
+        width: 27%;
+        box-shadow: 2px 2px 2px #DBDBDB;
+        background: white;
+        padding-left: 25px;
+        padding-right: 25px; }
+        body #wrapper section article h4 {
+          height: 40px;
+          color: #234465;
+          text-transform: uppercase;
+          text-spacing: 0;
+          margin-left: 10px; }
+        body #wrapper section article .publish {
+          margin-top: 0;
+          margin-left: 10px;
+          height: 40px; }
+        body #wrapper section article .image {
+          text-align: center;
+          height: 110px; }
+        body #wrapper section article .datetime {
+          text-align: right;
+          margin-right: 10px; }
+        body #wrapper section article .description, body #wrapper section article .tags {
+          margin-left: 10px;
+          margin-right: 10px; }
+        body #wrapper section article .description {
+          height: 40px; }
+        body #wrapper section article .tags {
+          padding-top: 20px;
+          color: #B299B2;
+          font-size: 12px; }
+          body #wrapper section article .tags strong {
+            color: #5A5A5A; }
+        body #wrapper section article section:after {
+          clear: both;
+          display: block;
+          content: ''; }
+    body #wrapper #padding-bar {
+      float: left;
+      margin-left: 40px;
+      margin-top: 4px; }
+      body #wrapper #padding-bar ul {
+        margin-top: 40px;
+        margin-left: 4px; }
+        body #wrapper #padding-bar ul li {
+          list-style-type: none;
+          line-height: 30px;
+          text-align: center;
+          float: left;
+          padding: 0;
+          margin: 0; }
+          body #wrapper #padding-bar ul li a {
+            display: table-cell;
+            text-decoration: none;
+            width: 32px;
+            height: 32px;
+            background-color: #4CA0DB;
+            color: white;
+            border-left: 1px solid white; }
+            body #wrapper #padding-bar ul li a:hover {
+              background-color: orange; }
+        body #wrapper #padding-bar ul li:first-child a {
+          background-color: orange; }

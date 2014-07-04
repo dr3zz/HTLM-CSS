@@ -1,0 +1,107 @@
+#header {
+    padding: 10px;
+    padding-bottom: 0;
+    width: 1212px;
+    background-color: #234465;
+}
+
+#header #header-logo {
+    width: 327.24px;
+    display: inline-block;
+}
+
+#header #header-logo img {
+    vertical-align: middle;
+}
+
+#header #header-nav {
+    width: 848.4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#header #header-nav nav ul {
+    text-align: right;
+    margin: 5px;
+    padding: 0;
+}
+
+#header #header-nav nav ul li {
+    display: inline-block;
+    text-align: left;
+}
+
+#header #header-nav nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#header #header-nav nav ul li a .caret img {
+    vertical-align: middle;
+    width: 8px;
+}
+
+#header #header-nav nav ul li a:hover {
+    background-color: #4ca0db;
+}
+
+#header #header-nav nav ul li a:active {
+    background-color: #ff9c00;
+}
+
+#header div {
+    text-align: right;
+}
+
+#header div div {
+    display: inline-block;
+    color: white;
+}
+
+#header div div a {
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+}
+
+#header div div a:hover {
+    text-decoration: underline;
+}
+
+#header div div a:active {
+    background-color: #ff9c00;
+}
+
+#header div div div:hover {
+    text-decoration: underline;
+}
+
+#header div #search {
+    border-radius: 10px;
+    background-color: white;
+}
+
+#header div #search input[type='search'] {
+    width: 200px;
+    height: 30px;
+    border: none;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+#header div #search input[type='search']:focus {
+    outline: none;
+}
+
+#header div #search button {
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    border-left: 1px solid black;
+}
