@@ -1,0 +1,277 @@
+body {
+  background: #6698FF;
+  #wrapper {
+    width: 60%;
+    margin: 0 auto;
+    header {
+
+      h1 {
+
+        a {
+
+          text-decoration: none;
+          color: white;
+          font-size: 2.4rem;
+        }
+      }
+      nav:before {
+        height: 1px;
+        background: #000;
+        content: "";
+        display: block;
+        position: relative;
+        top: 33px;
+        z-index: -1;
+      }
+      nav {
+        margin-top: 0;
+//        margin-bottom: -30px;
+        ul {
+          text-align: right;
+          li {
+            display: inline;
+            a {
+              text-decoration: none;
+              color: black;
+              display: inline-block;
+              border: 1px solid black;
+              background: white;
+              font-size: 1.1em;
+              padding: 0.5% 1%;
+              margin-right: 1%;
+            }
+          }
+        }
+
+      }
+    }
+    section {
+      display: inline-block;
+      width: 72%;
+
+      article {
+        background: white;
+        border: 1px solid black;
+        margin-bottom: 2%;
+        header {
+          border: none;
+          margin: 0;
+
+        }
+        h1 {
+          padding: 0 2%;
+
+        }
+        div {
+          padding: 0 2%;
+        }
+        p:first-letter {
+          padding-left: 20px;
+        }
+      }
+    }
+    aside.news {
+      display: inline-block;
+      width: 26%;
+      float: right;
+      border: 1px solid black;
+      background: white;
+
+      div {
+        ul {
+
+          padding: 0;
+          list-style-type: none;
+          li {
+            margin: 3%;
+
+            a {
+              color: black;
+              display: inline-block;
+              text-decoration: none;
+              padding: 0 3%;
+
+            }
+          }
+        }
+      }
+    }
+    footer {
+      border: 1px solid black;
+      text-align: center;
+      background: white;
+      margin-top: 20px;
+      margin-bottom: 0;
+      h2 {
+        margin-bottom: 0;
+        font-size: 1.3em;
+      }
+
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    font-size: 1.25rem;
+    #wrapper {
+      width: 100%;
+      header {
+        h1 {
+          font-size: 2.15rem;
+        }
+        nav {
+          ul {
+            li {
+              a {
+
+              }
+            }
+          }
+        }
+      }
+      section {
+
+      }
+      footer {
+        font-size: 1.2rem;
+      }
+    }
+    #wrapper > {
+      header > {
+        h1 {
+
+          a {
+            img {
+              float: left;
+              padding-right: 2%;
+            }
+            span {
+              margin-bottom: 20px;
+              padding-bottom: 20px;
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  body {
+    #wrapper {
+      header {
+        nav {
+          ul {
+            li {
+              a {
+                width: 18%;
+              }
+            }
+          }
+        }
+        h1 {
+          a {
+            img {
+
+              float: none;
+              width: 35%;
+            }
+            span {
+
+              //              font-size: 2rem;
+              display: inline;
+            }
+          }
+        }
+      }
+      section {
+        width: 100%;
+        display: block;
+      }
+      aside.news {
+        width: 100%;
+        float: none;
+        div {
+          ul {
+            margin: 0 auto;
+            padding: 0;
+            li {
+              margin: 20px 0 60px 10px;
+              display: block;
+              width: 23%;
+              float: left;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+@media screen and (max-width: 640px) {
+  body {
+    #wrapper {
+      header {
+
+         h1 {
+           margin: 0;
+           a {
+             img {
+               display: block;
+               margin: 0 auto;
+               width: 70%;
+             }
+             span {
+               display: block;
+               margin: 0 auto;
+               width: 100%;
+               font-size: 4.5rem;
+               text-align: center;
+               padding: 0;
+             }
+
+           }
+         }
+        nav {
+
+          ul {
+            text-align: center ;
+            li {
+              a {
+               width: 90%;
+                display: block;
+              }
+            }
+          }
+        }
+      }
+
+      aside.news {
+        width: 100%;
+        float: none;
+        div {
+          ul {
+            margin: 0 auto;
+            padding: 0;
+            li {
+              margin: 0;
+              display: inline-block;
+              width: 100%;
+              float: none;
+              text-align: center;
+
+              a{
+                margin: 20px;
+                padding: 0 60px;
+//                padding: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
